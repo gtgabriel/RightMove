@@ -1,6 +1,6 @@
 # RightMove
 
-This little api allows one to scrape house prices around London in various Locations (as defined in the dict inside the rm.py module). You can add more locations by using rightmove in a browser and observing the codes they use for each location choice in the UK, and adding that location code to the location dictionary. 
+This little api allows one to scrape house prices around London in various Locations (as defined in the dict inside the rm.py module). You can add more locations by using rightmove in a browser and observing the codes they use for each location choice in the UK as seen in their url, and adding that location code to the location dictionary in the rm.py module. 
 
 The 10 example locations given in the code are train stations. The house prices extracted are for 3 bedroom houses within 1 mile radius of each of those stations. These parameters can be adjusted in the jupyter notebook where the api is being called. 
 

@@ -1,3 +1,13 @@
+'''rm.py: a class that connects to rightmove and 
+extract house prices from a set of locations around London'''
+
+__author__      = "Gabriel Grigorescu"
+__copyright__   = "Copyright 2020, London"
+__version__ = "1.0"
+__maintainer__ = "Gabriel Grigorescu"
+__email__ = "g.t.grigorescu@gmail.com"
+__status__ = "Play with it at your own risk"
+
 import requests
 import pandas as pd
 import json as js
@@ -36,6 +46,7 @@ global_locations = {'st albans station': 'STATION%5E8573',
 
             }
 
+# this dict is an example, will be overwritten from outside the module 
 general_search_dict = {'index': 0,
                'sortType' : 1,
                'numberOfPropertiesRequested': 50, # max supported for the API, overridden by results_per_page
@@ -50,6 +61,7 @@ general_search_dict = {'index': 0,
                'apiApplication': 'IPAD',
                 }
 
+# extracting and parsing the output dict a bit, adding a few features
 def extract_property(prop_dict):
 
     prop = {}
@@ -206,3 +218,10 @@ def price_hist(df, title_bit=None):
     plt.title(title)
     plt.show()
 
+def main():
+    # do nothing for now
+    pass
+
+if __name__ == "__main__":
+    main()
+    
