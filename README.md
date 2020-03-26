@@ -7,6 +7,7 @@ The 10 example locations given in the code are train stations. The house prices 
 The house prices have been sampled at a few points in time and saved for visualisation in google docs: 
 https://docs.google.com/spreadsheets/d/1BQklfVOCglSxPbVVkRDJ38_WxOHriGkgNkjU9gB8McY/edit?usp=sharing
 
+
 The idea behind this personal project was to monitor significant trends in house prices; now ( March 2020 ) I plan to also use this to see the impact of Corona virus on the housing market. 
 
 Enjoy! 
