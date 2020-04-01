@@ -1,5 +1,5 @@
 '''rm.py: a class that connects to rightmove and 
-extract house prices from a set of locations around London'''
+extracts house prices from a set of locations around London'''
 
 __author__      = "Gabriel Grigorescu"
 __copyright__   = "Copyright 2020, London"
